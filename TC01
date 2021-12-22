@@ -1,0 +1,24 @@
+package convection;
+
+public class addition {
+
+	// take value at main method
+	// parameter
+
+	public void add(int a, int b) {
+		int c = a + b +b;
+		System.out.println("Addition result"+c);
+	}
+
+	public void sub(int a, int b) {
+		int c = a - b;
+		System.out.println("Substraction result"+c);
+	}
+
+	public static void main(String[] args) {
+		addition a = new addition();
+		a.add(30, 50);
+		a.sub(80, 50);
+
+	}
+}
